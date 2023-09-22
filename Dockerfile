@@ -1,4 +1,4 @@
-FROM homeassistant/aarch64-addon-silabs-multiprotocol:latest
+FROM homeassistant/amd64-addon-silabs-multiprotocol:latest
 
 RUN rm -rf /etc/s6-overlay/s6-rc.d/banner && \
     rm -rf /etc/s6-overlay/scripts/banner.sh && \
